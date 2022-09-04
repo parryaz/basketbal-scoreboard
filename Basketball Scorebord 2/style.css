@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: silk;
+    src: url(/fonts/fontscore.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    color: #eeeeee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+
+.box {
+    background: #080001;
+    color: #F94F6D;
+    font-family: silk;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    
+
+
+}
+
+
+
+button {
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    height: 45px;
+    width: 45px;
+    color: #9AABD8;
+    font-family: silk;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
